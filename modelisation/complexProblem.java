@@ -6,7 +6,7 @@ import definition.*;
 import resolution.SearchV1;
 import resolution.SearchV2;
 
-public class exam2020 {
+public class complexProblem {
     
     private static int nbVar; // Nombre de variable du csp pour la première partie 
     private static int nb; //  Nomre de variable du csp pour la deuxième partie
@@ -209,16 +209,13 @@ public class exam2020 {
         //                                   MONTÉE EN CHARGE 
         //------------------------------------------------------------------------------------------------------
         
-        // PARTIE 1 : 
-
-        // Q1 : regarder le code au dessus.
         // Q2 : decomenter les ligne suivantes en changeant la valeur de nb ∈ {10,100,1000}
         
         //circuitSuperieursOuEgaux(10);
         //circuitSuperieursOuEgaux(100);
         //circuitSuperieursOuEgaux(1000);
 
-        /* RÉPONSES
+        /* 
         Pour nb = 10 : résolution en [0.1302139 secondes]
         Pour nb = 100 : résolution en [0.7227676 secondes]
         pour nb = 1000 : résolution en [11.5869795 secondes]
@@ -227,17 +224,14 @@ public class exam2020 {
         La plus grande valeure traitée est 1000. 
         */
 
-        
-        // PARTIE 2 :
-
-        // Q1 : regarder le code au dessus.
-        // Q2 : decomenter les lignes suivantes en changeant la valeur de nb ∈ {10,100,1000}
+       
+        // decomenter les lignes suivantes en changeant la valeur de nb ∈ {10,100,1000}
 
         //circuitSuperieursEtDifferents(10);
         //circuitSuperieursEtDifferents(100);
         //circuitSuperieursEtDifferents(1000);
 
-        /* RÉPONSES
+        /* 
         Pour nb = 10 : résolution en [0.027777 secondes]
         Pour nb = 100 : résolution en [0.1331981 secondes] 
         Pour nb = 1000 : résolution en [3.3270916 secondes]
@@ -256,7 +250,7 @@ public class exam2020 {
         //circuitSuperieursStricts(1000);
         //circuitSuperieursStricts(10000);
 
-        /* RÉPONSES
+        /* 
         Pour nb = 10 : résolution en [0.0149278 secondes]
         Pour nb = 100 : résolution en [0.0271065 secondes] 
         Pour nb = 1000 : résolution en [0.1890407 secondes]
@@ -267,17 +261,8 @@ public class exam2020 {
         
         */
 
-        //------------------------------------------------------------------------------------------------------
-        //                                   CRÉATION D'UNE CONTRAINTE 
-        //------------------------------------------------------------------------------------------------------
-
         
-
-        
-
-
-
-    
+            
 
     }
 
